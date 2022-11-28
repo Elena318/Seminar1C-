@@ -75,12 +75,12 @@ if (result == 1)
 Console.WriteLine("Введите N: ");
 int num = Convert.ToInt32(Console.ReadLine());
 
-int current = num / num;
-while(current >= 1 && current <= num)
+int current = 2;
+while (current <= num)
 {
     if (current % 2 == 0)
     {
         Console.Write(current + " ");
-        current ++ ;
+        current++;
     }
 }

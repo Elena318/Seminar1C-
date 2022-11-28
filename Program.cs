@@ -33,7 +33,7 @@ else
 
 //Напишите программу, которая на вход принимает одно число(N), 
 //а на выходе показывает все целые числа в прмежутке от -N до N.
-/*
+
 Console.WriteLine("Введите N: ");
 int num = Convert.ToInt32(Console.ReadLine());
 
@@ -44,7 +44,7 @@ while (current <= num)
     Console.Write(current + " ");
     current++;
 }
-*/
+
 
 //Напишите программу, которая принимает на вход трехзначное число и
 //на выходе показывает последнюю цифру этого числа.
@@ -54,7 +54,7 @@ while (current <= num)
 //246 / 10 -> 24
 //246 % 100 -> 46
 //246 % 10 -> 6
-
+/*
 Console.WriteLine("Введите трехзначное число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 
@@ -67,3 +67,4 @@ else
 {
     Console.WriteLine("Число не трехзначное");
 }
+*/
